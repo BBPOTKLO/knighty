@@ -1,21 +1,51 @@
 # Knighty
 
-Jailbreak detection bypass for **Dopamine / iOS 18**. Compiled package only — **source is not in this repo**.
+Jailbreak detection bypass for **Dopamine 3 / iOS 18**. Injects like a normal tweak and hooks detection APIs — it does **not** disable injection like Dopamine Hide Jailbreak.
 
-## Install (Sileo)
+Compiled packages only. Source is not published.
 
-Add this source:
+## Install with Sileo
+
+1. Add this source:
 
 ```
 https://bbpotklo.github.io/knighty/
 ```
 
-Then search **Knighty**, install, respring.
+2. Also add **opa334's repo** if you don't have it:
 
-You also need [AltList](https://opa334.github.io) (`https://opa334.github.io`) for the app picker.
+```
+https://opa334.github.io
+```
+
+Knighty needs **AltList** for the app picker.
+
+3. Search **Knighty**, install, respring.
 
 Keep Dopamine **Hide Jailbreak** off.
 
-## GitHub
+## Settings
 
-This page: https://github.com/BBPOTKLO/knighty
+After install, open the **Settings** app. **Knighty** is in the main list with your other tweaks (near the bottom).
+
+- **Enabled** — master switch
+- **All Applications** — on = every app (except Sileo / Filza / Settings). Off = only apps you pick
+- **Enabled Applications** — Crane-style list with a switch per app
+- Hook toggles for files, tweaks, URL schemes, Frida ports, debugger flag
+- **Respring** when you're done
+
+## Choicy
+
+For apps that still detect you: inject **only Knighty** for that app. Disable Crane, Ghost, and other UI tweaks there.
+
+## What it hides
+
+| Layer | What it covers |
+|-------|----------------|
+| Filesystem | Jailbreak paths (`/var/jb`, Dopamine / procursus, TweakInject, apt, …) |
+| URLs | Cydia / Sileo / Filza URL schemes |
+| Loaded tweaks | Injected dylib names |
+| Network | Frida port probes (`27042` / `27043`) |
+| Anti-debug | Debugger attach flag |
+
+arm64 and arm64e. Rootless Dopamine 3.
