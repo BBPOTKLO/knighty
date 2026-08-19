@@ -1,0 +1,99 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "headerImage": "",
+  "tintColor": "#5B4BFF",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "iOS 18 / Dopamine 3",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Hides jailbreak files, dyld images, Sileo/Filza URL schemes, and Frida port probes **without** disabling tweak injection.\n\nWorks while other tweaks and Frida stay loaded. Do **not** turn on Dopamine Hide Jailbreak if you want injection.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "iOS",
+          "text": "15.0 – 18.x (rootless)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Jailbreak",
+          "text": "Dopamine 3"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Arch",
+          "text": "iphoneos-arm64"
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.1.2",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Build arm64 and arm64e so Settings / A12+ can load the prefs bundle\n- Fix publish so Sileo actually gets the new version",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.1.0",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Settings app pane (like Crane)\n- Per-app enable list via AltList\n- Toggles for filesystem, tweaks, URLs, Frida ports, debugger",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.2",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Package display name is Knighty (not Veil)\n- Compile fix for Sileo skip path",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.1",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Do not hook Sileo / apt / Filza / Dopamine (this was breaking Sileo)\n- Guard ObjC hooks so they stay off in package managers",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.0",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial release for Dopamine 3 / iOS 18\n- Filesystem, dyld, URL scheme, and Frida port hooks",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}
