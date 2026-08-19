@@ -45,6 +45,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.1.4",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Stop Settings crash: no custom prefs binary (Linux arm64e ABI was killing Settings on A12/A13)\n- Settings pane is stock PSListController + AltList\n- Do not install hooks in Settings at all",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.1.3",
           "useBoldText": true
         },

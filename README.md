@@ -32,7 +32,8 @@ After install, open the **Settings** app. **Knighty** is in the main list with y
 - **All Applications** — on = every app (except Sileo / Filza / Settings). Off = only apps you pick
 - **Enabled Applications** — Crane-style list with a switch per app
 - Hook toggles for files, tweaks, URL schemes, Frida ports, debugger flag
-- **Respring** when you're done
+
+Respring from Sileo after changing settings if an app still sees the jailbreak.
 
 ## Choicy
 
