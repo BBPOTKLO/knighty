@@ -53,6 +53,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.1.8",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fix empty Enabled Applications page: load AltList as a real controller (`bundle`, `isController`, `overridePrincipalClass`)",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.1.7",
           "useBoldText": true
         },
