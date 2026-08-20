@@ -45,6 +45,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.1.27",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fix instant InstaPay / Ana Vodafone abort: do **not** hook `getenv` (recursive `os_unfair_lock` when Dynatrace / CFLog read the environment). Strip `DYLD_*` once at start instead.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.1.26",
           "useBoldText": true
         },
