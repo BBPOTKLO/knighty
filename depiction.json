@@ -45,6 +45,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.1.21",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- App picker is its own Settings row: **Knighty Applicationlist** (same icon, search bar, switches off by default). Uses AltList’s bundleless entry so Settings does not load it until you tap.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.1.20",
           "useBoldText": true
         },
