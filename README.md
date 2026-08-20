@@ -26,12 +26,10 @@ Keep Dopamine **Hide Jailbreak** off.
 
 ## Settings
 
-After install, open the **Settings** app. **Knighty** is in the main list with your other tweaks (near the bottom).
+After install, open the **Settings** app. You will see **Knighty** and **Knighty Applications** next to each other.
 
-- **Enabled** — master switch
-- **All Applications** — on = every app (except Sileo / Filza / Settings). Off = only apps you pick
-- **Enabled Applications** — Crane-style list with a switch per app
-- Hook toggles for files, tweaks, URL schemes, Frida ports, debugger flag
+- **Knighty** — master switch, All Applications, hook toggles
+- **Knighty Applications** — app picker (turn All Applications off first, then enable apps here)
 
 Respring from Sileo after changing settings if an app still sees the jailbreak.
 

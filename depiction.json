@@ -45,6 +45,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.1.12",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Restore the app picker without Safe Mode: AltList is a separate Settings page (Knighty Applications) using opa334’s official bundleless entry. Nothing is loaded at SpringBoard start.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.1.11",
           "useBoldText": true
         },
