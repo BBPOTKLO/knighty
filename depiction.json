@@ -45,6 +45,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.1.14",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Close scanners that skip libc: hook `syscall`, `getattrlist`, `task_info` image lists, IPv6 Frida ports, and Sileo/Filza install checks.\n- Crane, Ghost, and Frida stay loaded. Port 27042 is only refused *from the app*, not from your computer.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.1.13",
           "useBoldText": true
         },
