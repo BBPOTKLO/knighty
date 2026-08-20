@@ -1,7 +1,5 @@
 # Knighty
 
-![Knighty](icon.png)
-
 Jailbreak detection bypass for **Dopamine 3 / iOS 18**. Injects like a normal tweak and hooks detection APIs — it does **not** disable injection like Dopamine Hide Jailbreak.
 
 Compiled packages only. Source is not published.

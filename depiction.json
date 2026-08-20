@@ -53,6 +53,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.1.6",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Remove huge icon from the GitHub README\n- Fix Settings pane: use PreferenceLoader’s PLCustomListController so the switches actually load",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.1.5",
           "useBoldText": true
         },
