@@ -36,7 +36,7 @@ Respring from Sileo after changing settings if an app still sees the jailbreak.
 
 ## Choicy
 
-For apps that still detect you: inject **only Knighty** for that app. Disable Crane, Ghost, and other UI tweaks there.
+Install Knighty **1.1.28+** before Choicy. For InstaPay / Ana Vodafone: leave Knighty on, disable Crane and Ghost. Do not turn off tweaks for SpringBoard.
 
 ## What it hides
 

@@ -45,6 +45,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.1.28",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Work with **Choicy**: do not hook `dlopen` (that blocked ChoicyLoader / libSandy) and never install hide hooks in SpringBoard, SplashBoard, or other system UI.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.1.27",
           "useBoldText": true
         },
