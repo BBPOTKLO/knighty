@@ -31,7 +31,7 @@ After install, open the **Settings** app. **Knighty** is in the main list.
 - **Enabled** — master switch
 - **All Applications** — on = every app (except Sileo / Filza / Settings). Off = only apps you pick
 - **Enabled Applications** — app list inside Knighty
-- Hook toggles for files, tweaks, URL schemes, Frida ports, debugger flag
+- Hook toggles for files, tweaks, URL schemes, Frida ports, VPN, debugger flag
 
 Respring from Sileo after changing settings if an app still sees the jailbreak.
 
@@ -46,7 +46,7 @@ For apps that still detect you: inject **only Knighty** for that app. Disable Cr
 | Filesystem | Jailbreak paths (`/var/jb`, Dopamine / procursus, TweakInject, apt, …) |
 | URLs | Cydia / Sileo / Filza URL schemes |
 | Loaded tweaks | Injected dylib names |
-| Network | Frida port probes (`27042` / `27043`) |
+| Network | Frida port probes (`27042` / `27043`); VPN interfaces (`utun`, ipsec) |
 | Anti-debug | Debugger attach flag |
 
 arm64 and arm64e. Rootless Dopamine 3.
