@@ -45,6 +45,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.1.20",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fix Settings crash on open: do not run ObjC / load AltList in Preferences’ constructor (`SIGSEGV` PAC in `NSArray`).",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.1.19",
           "useBoldText": true
         },
