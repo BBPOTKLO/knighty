@@ -8,10 +8,10 @@ Conflicts: com.rezi.veil
 Replaces: com.rezi.veil
 Provides: com.rezi.veil
 Filename: debs/com.rezi.knighty_1.1.16_iphoneos-arm64.deb
-Size: 23834
-MD5sum: 2043d56b55b08dc05599bd056fdf79b2
-SHA1: 12844545d929c662a32cde97075c833c8fde2f8a
-SHA256: da2af22a138e77adf42fc81021709b8d5001848f939bcc70b02875b237d148b4
+Size: 23816
+MD5sum: cc79d7277fa62809ca0361c8b3470f45
+SHA1: 154db519d6b12c8d1aa81e0e58529d6ffedfe23a
+SHA256: 537f685f484bb4dea94a198fcdf3b295866aac85364a5515510b38db2d0132fe
 Section: Tweaks
 Homepage: https://github.com/BBPOTKLO/knighty
 Description: Jailbreak detection bypass for iOS 18 rootless (Dopamine 3). Hides filesystem, dyld image lists, URL schemes, and Frida port scans while tweaks and Frida stay injected.

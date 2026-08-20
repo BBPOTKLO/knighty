@@ -1,6 +1,6 @@
 # Knighty
 
-Jailbreak detection bypass for **Dopamine 3 / iOS 18**. Injects like a normal tweak and hooks detection APIs — it does **not** disable injection like Dopamine Hide Jailbreak.
+**First jailbreak hider for iOS 18 / Dopamine 3.** Hides the jailbreak from apps without killing tweak injection (unlike Dopamine Hide Jailbreak).
 
 Compiled packages only. Source is not published.
 

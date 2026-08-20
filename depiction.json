@@ -10,7 +10,7 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
-          "title": "iOS 18 / Dopamine 3",
+          "title": "First jailbreak hider for iOS 18",
           "useBoldText": true,
           "useBottomMargin": false
         },
