@@ -45,6 +45,7 @@ Install Knighty **1.1.28+** before Choicy. For InstaPay / Ana Vodafone: leave Kn
 | Filesystem | Jailbreak paths (`/var/jb`, Dopamine / procursus, TweakInject, apt, …) |
 | URLs | Cydia / Sileo / Filza URL schemes |
 | Loaded tweaks | Injected dylib names |
+| VM map | Extra r-x pages / ElleKit trampolines omitted from `vm_region` |
 | Network | Frida port probes (`27042` / `27043`); VPN interfaces (`utun`, ipsec) |
 | Anti-debug | Debugger attach flag |
 

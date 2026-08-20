@@ -1,5 +1,5 @@
 Package: com.rezi.knighty
-Version: 1.1.28
+Version: 1.1.29
 Architecture: iphoneos-arm64
 Maintainer: Rezi
 Installed-Size: 252
@@ -7,14 +7,14 @@ Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader, com.op
 Conflicts: com.rezi.veil
 Replaces: com.rezi.veil
 Provides: com.rezi.veil
-Filename: debs/com.rezi.knighty_1.1.28_iphoneos-arm64.deb
-Size: 28328
-MD5sum: 628e8c0b23d714e93e9f44e6d940cced
-SHA1: 340e8150fa2441c4f6e4057f7586c61b4eb3045d
-SHA256: fa61519e32f7bac59e70001489cd15aadca4fdd3f9464b533ac045c0641c4e6d
+Filename: debs/com.rezi.knighty_1.1.29_iphoneos-arm64.deb
+Size: 30276
+MD5sum: ae540d38731645710f0c1850c0da7f8e
+SHA1: b04bd32957c148b9268d6ed855105f50685fda9a
+SHA256: bb64633418f818002f7d583e7ca08fb4eaef9b4d0bf4a685c702e3d7d41207e5
 Section: Tweaks
 Homepage: https://github.com/BBPOTKLO/knighty
-Description: Jailbreak detection bypass for iOS 18 rootless (Dopamine 3). Hides filesystem, dyld image lists, URL schemes, Frida port scans, and VPN interfaces while tweaks and Frida stay injected.
+Description: Jailbreak detection bypass for iOS 18 rootless (Dopamine 3). Hides filesystem, dyld image lists, VM mappings, URL schemes, Frida port scans, and VPN interfaces while tweaks and Frida stay injected.
 Author: Rezi
 Depiction: https://bbpotklo.github.io/knighty/
 Icon: https://bbpotklo.github.io/knighty/CydiaIcon.png

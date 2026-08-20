@@ -45,6 +45,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.1.29",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Hide extra dylibs and ElleKit trampoline pages from `mach_vm_region` / `vm_region` / `proc_regionfilename` (startup memory walk, not just dyld names).",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.1.28",
           "useBoldText": true
         },
