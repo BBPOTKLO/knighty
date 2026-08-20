@@ -53,6 +53,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.1.7",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Actually fix Settings: PreferenceLoader reads items at the plist root, not nested inside entry. That error screen was an empty specifier list.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.1.6",
           "useBoldText": true
         },
