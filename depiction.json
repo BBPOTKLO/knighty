@@ -45,6 +45,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.1.23",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Honor **Knighty Applicationlist** when All Applications is off (read jb prefs; do not treat a missing bundle id as “every app”).\n- Fix App Store crash on open: do not call `NSBundle hasPrefix` during dyld init; skip `AppStore` by process name.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.1.22",
           "useBoldText": true
         },
