@@ -9,14 +9,6 @@
       "class": "DepictionStackView",
       "views": [
         {
-          "class": "DepictionImageView",
-          "URL": "https://bbpotklo.github.io/knighty/icon.png",
-          "width": 120,
-          "height": 120,
-          "cornerRadius": 27,
-          "horizontalAlignment": 1
-        },
-        {
           "class": "DepictionSubheaderView",
           "title": "iOS 18 / Dopamine 3",
           "useBoldText": true,
@@ -51,6 +43,16 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.1.9",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Remove huge logo from the Sileo package description",
+          "useSpacing": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.1.8",

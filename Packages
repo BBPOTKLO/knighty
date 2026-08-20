@@ -1,5 +1,5 @@
 Package: com.rezi.knighty
-Version: 1.1.8
+Version: 1.1.9
 Architecture: iphoneos-arm64
 Maintainer: Rezi
 Installed-Size: 220
@@ -7,17 +7,17 @@ Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader, com.op
 Conflicts: com.rezi.veil
 Replaces: com.rezi.veil
 Provides: com.rezi.veil
-Filename: debs/com.rezi.knighty_1.1.8_iphoneos-arm64.deb
-Size: 20654
-MD5sum: 5f0e64140f19b3f4b235a179b80e7dae
-SHA1: 553bdcc90f9c1d867d819c14e6130953172af500
-SHA256: 8132703091ce216197c004ea59cbf1ffa64554ec67d9e3f09b0d536c385a71d2
+Filename: debs/com.rezi.knighty_1.1.9_iphoneos-arm64.deb
+Size: 20704
+MD5sum: b513364735da03def698fde6f6bebe20
+SHA1: 07e99dc59d8fee05bb684d418103b99853afdd6c
+SHA256: 11e52b732f2cf23ae59878c03772b3dbb3ac16efec1952bb7a04098cc1d5c111
 Section: Tweaks
 Homepage: https://github.com/BBPOTKLO/knighty
 Description: Jailbreak detection bypass for iOS 18 rootless (Dopamine 3). Hides filesystem, dyld, URL schemes, and port scans while tweaks stay injected.
 Author: Rezi
 Depiction: https://bbpotklo.github.io/knighty/
-Icon: https://bbpotklo.github.io/knighty/icon.png
+Icon: https://bbpotklo.github.io/knighty/CydiaIcon.png
 Name: Knighty
 Sileodepiction: https://bbpotklo.github.io/knighty/depiction.json
 
