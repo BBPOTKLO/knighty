@@ -45,6 +45,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.1.13",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- App picker is back inside Knighty → Enabled Applications. AltList loads only when that row is opened (rootless bundle path), not at SpringBoard start.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.1.12",
           "useBoldText": true
         },
