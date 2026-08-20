@@ -45,6 +45,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.1.15",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Hide actually takes effect: intercept `dlsym` lookups, kernel `__stat64` / `__connect`, and omit tweak images from `_dyld_image_count`.\n- Fix Enabled Applications: use AltList’s `PSLinkListCell` (no broken bundle path).",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.1.14",
           "useBoldText": true
         },
