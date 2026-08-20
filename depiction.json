@@ -2,12 +2,20 @@
   "minVersion": "0.1",
   "class": "DepictionTabView",
   "headerImage": "",
-  "tintColor": "#5B4BFF",
+  "tintColor": "#111111",
   "tabs": [
     {
       "tabname": "Details",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionImageView",
+          "URL": "https://bbpotklo.github.io/knighty/icon.png",
+          "width": 120,
+          "height": 120,
+          "cornerRadius": 27,
+          "horizontalAlignment": 1
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "iOS 18 / Dopamine 3",
@@ -50,7 +58,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Stop Settings crash: no custom prefs binary (Linux arm64e ABI was killing Settings on A12/A13)\n- Settings pane is stock PSListController + AltList\n- Do not install hooks in Settings at all",
+          "markdown": "- Stop Settings crash: no custom prefs binary (Linux arm64e ABI was killing Settings on A12/A13)\n- Settings pane is stock PSListController + AltList\n- Do not install hooks in Settings at all\n- Knighty icon in Settings, Sileo, and the repo",
           "useSpacing": true
         },
         {
