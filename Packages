@@ -1,17 +1,17 @@
 Package: com.rezi.knighty
-Version: 1.1.18
+Version: 1.1.19
 Architecture: iphoneos-arm64
 Maintainer: Rezi
-Installed-Size: 252
+Installed-Size: 256
 Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.rezi.veil
 Replaces: com.rezi.veil
 Provides: com.rezi.veil
-Filename: debs/com.rezi.knighty_1.1.18_iphoneos-arm64.deb
-Size: 25442
-MD5sum: fa8f0b78fcb4b43888f2948fb7b74dc7
-SHA1: 4f0eacae37cfd6fda14efbf216b8538d2303a314
-SHA256: 47ec77a6f176a47bff2ee75282440ff6b811f60d5d10a7eb753c79f48bc55376
+Filename: debs/com.rezi.knighty_1.1.19_iphoneos-arm64.deb
+Size: 26792
+MD5sum: c303d13eb74cd2fa5fa29c2e8d744629
+SHA1: 81254c03f2a0192a65463d9f64e7f739fb3dcef0
+SHA256: 2041786bf1198b63a83fde4e5ea162ba2a6daa2288de1480f725ff9a2bfd19f6
 Section: Tweaks
 Homepage: https://github.com/BBPOTKLO/knighty
 Description: Jailbreak detection bypass for iOS 18 rootless (Dopamine 3). Hides filesystem, dyld image lists, URL schemes, Frida port scans, and VPN interfaces while tweaks and Frida stay injected.

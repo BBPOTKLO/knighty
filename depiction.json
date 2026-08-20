@@ -45,6 +45,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.1.19",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Hide VPN defaults to **off**.\n- Fix app list: load AltList inside Settings, and add a **Knighty Applications** page (opa334 bundleless entry) so the picker is not an empty PSListItemsController.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.1.18",
           "useBoldText": true
         },
