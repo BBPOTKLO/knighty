@@ -45,6 +45,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.1.24",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Hooks install **only** in apps enabled in Knighty Applicationlist. Other apps load Knighty but do nothing (fixes system apps crashing). Turn on DoorDash Dasher there, then respring.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.1.23",
           "useBoldText": true
         },
