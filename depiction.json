@@ -45,6 +45,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.1.18",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fix Dasher abort: do not `freeifaddrs` individual `getifaddrs` nodes (Darwin uses one allocation; Network’s `if_nametoindex` crashed with `POINTER_BEING_FREED_WAS_NOT_ALLOCATED`).",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.1.17",
           "useBoldText": true
         },
